@@ -1,9 +1,3 @@
-# In the "CommentApp" app, create a model named "Comment" with the following fields:
-# Content (TextField)
-# Author (CharField)
-# Published Date (DateTimeField)
-# Post (ForeignKey to the "Post" model)
-
 from django.db import models
 from BlogApp.models import Post
 
